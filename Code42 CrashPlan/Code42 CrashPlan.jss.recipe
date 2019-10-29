@@ -14,12 +14,12 @@
 		<string>CrashPlan</string>
 		<key>CATEGORY</key>
 		<string>Productivity</string>
+		<key>DISPLAY_NAME</key>
+		<string>Code42 CrashPlan</string>
 		<key>GROUP_NAME</key>
 		<string>PT - Update %NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>LAITS-FS-SmartGroupTemplate.xml</string>
-		<key>DISPLAY_NAME</key>
-		<string>Code42 CrashPlan</string>
 		<key>NAME</key>
 		<string>CrashPlan</string>
 		<key>OS_REQUIREMENTS</key>
@@ -39,6 +39,30 @@
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>edu.utexas.laits.pkg.Code42CrashPlan</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>edu.utexas.laits.download.Code42CrashPlan</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a2efbda59ae04af8106bd92a6a3f8997631c6375</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.jojojojones.recipes/Code42 CrashPlan/Code42 CrashPlan.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8878505b31c075e946ad6d900c0785237b64a72127b17016ee015e9ffa0517af</string>
+			</dict>
+			<key>edu.utexas.laits.pkg.Code42CrashPlan</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeOverrides/Code42 CrashPlan.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>b750e94500878d2e2f88a84b3eb30ea089051a1b704da2e021fa2ab87288d7ef</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
