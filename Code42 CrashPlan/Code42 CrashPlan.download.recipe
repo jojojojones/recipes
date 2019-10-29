@@ -13,7 +13,7 @@
 		<key>APP_FILENAME</key>
 		<string>CrashPlan</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://download.code42.com/installs/mac/install/Code42CrashPlan/Code42CrashPlan_7.0.3_Mac.dmg</string>
+		<string>https://ivanti-core-p01.austin.utexas.edu/EPMShare/LAITS/Packages/utbackup/UTBackup_CPlan_7.0.0.pkg</string>
 		<key>NAME</key>
 		<string>Code42 CrashPlan</string>
 	</dict>
